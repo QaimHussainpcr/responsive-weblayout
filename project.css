@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  header {
+    background-color: orchid;
+    padding: 5px 0;
+    height: 60px;
+  }
+ .menu {
+    float: left;
+    width: 45%;
+    font-size: 20px;
+  }
+  
+.web {
+    float: left;
+    width: 25%;
+    font-size: 30px;
+    padding: 8px 20px;
+    font-weight: bold;
+  }
+  .links {
+    float: left;
+    width: 30%;
+  }
+  header ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 150px;
+  }
+  
+  .menu li {
+    float: left;
+    padding: 12px 20px;
+    font-size: 20px;
+  }
+  
+  .menu li a:hover {
+  color: black;
+  }
+  aside {
+    padding: 15px;
+    width: 25%;
+    float: left;
+    min-height: 100vh;
+    background: beige;
+  }
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  aside ul a {
+    color: black;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid grey;
+  }
+  aside ul a:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+    color: rgb(14, 27, 211);
+    border-radius: 70px;
+    font-size: 20px;
+  }
+  aside img {
+    margin-block: 40px;
+    width: 100%;
+    min-height: 200px;
+  }
+ .links li a {
+    float: right;
+    padding: 12px 20px;
+    font-size: 20px;
+  }
+  .links li a:hover{
+    color: black;
+  }
+  article {
+    padding: 15px;
+    width: 75%;
+    float: left;
+    min-height: auto;
+  }
+  article h2,
+  p {
+    margin-block: 20px;
+    margin-inline: 20px;
+  }
+  .services-container {
+    width: 100%;
+  }
+  .service {
+    border: 1px solid #eee;
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .service img {
+    width: 100%;
+    height: 140px;
+  }
+  .service h3 {
+    margin: 5px 0 10px;
+  }
+  .service p {
+    margin: 0 0 10px;
+  }
+  
+  .action a {
+    margin: auto;
+    background: grey;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 8px 13px;
+    display: block;
+    width: 50%;
+    text-align: center;
+  }
+  .action a:hover {
+    color: grey;
+    background: transparent;
+    border: 2px solid grey;
+  }
+  footer {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 950px) {
+    header {
+      height: 140px;
+    }
+    .menu {
+      float: none;
+      width: 100%;
+      font-size: 20px;
+      text-align: center;
+      
+    }
+  
+    .web {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .links {
+      float: none; 
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .links li a {
+      float: left;
+      padding: 12px 40px;
+      font-size: 20px;
+    }
+  
+    aside {
+      float: none;
+      width: 100%;
+      min-height: 70vh;
+    }
+    article {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+  
+    .service-box {
+      border: 1px solid #eee;
+      float: none;
+      width: 90%;
+      margin: auto;
+      display: block;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media (max-width: 1050px) {
+    .service-box {
+      border: 1px solid #eee;
+      float: left;
+      width: 45%;
+      margin: auto;
+      padding: 10px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  }
+  
